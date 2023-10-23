@@ -1,0 +1,116 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Set a background color for the entire page */
+}
+
+.registration-container {
+  width: 350px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  color: #009688;
+  margin-top: 0;
+  padding-bottom: 15px;
+  font-weight: bolder;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.auth-button {
+  background-color: transparent;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.auth-button.active {
+  background-color: #009688;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align labels to the left */
+  margin: 20px 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input-field {
+  width: 92%;
+  padding: 14px;
+  border: none;
+  border-bottom: 2px solid #007BFF;
+  font-size: 18px;
+  background-color: transparent;
+  color: #333;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #009688;
+}
+
+.submit-button {
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #007BFF;
+}
+
+.error-message {
+  color: #ff4646;
+  font-size: 16px;
+  text-align: center;
+}
+
+.success-message {
+  color: #35cc35;
+  font-size: 16px;
+  text-align: center;
+}
+
+.changePassword {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #007BFF;
+  text-decoration: underline;
+  cursor: pointer;
+}
